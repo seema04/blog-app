@@ -1,0 +1,73 @@
+.settings{
+  display: flex;
+}
+
+.settings-wrapper{
+  flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5f8ae7;
+}
+
+.profile-container img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-container{
+  width: 60%;
+  display: flex;
+  background: aliceblue;
+  padding: 3rem 1rem;
+  border-radius: 0.13rem 2.6rem;
+  box-shadow: 1px 1px 6px #5f8ae78f;
+}
+
+.update-cat span{
+  font-size: 0.68rem;
+  display: flex;
+  margin: 0 2rem 0 0;
+}
+
+.update-cat span:nth-child(2){
+  color: indianred;
+}
+
+.profile-container form{
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.68rem;
+}
+
+label{
+  margin: 0.5rem 0;
+}
+
+input{
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 0.67rem;
+  outline: none;
+  max-width: 300px;
+}
+
+.profile-container button{
+  background: #5f8ae7;
+  border: none;
+  color: aliceblue;
+  padding: 0.5rem;
+  margin-top: 1.4rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.profile-container button:hover{
+  background: #b4caf7;
+  color: #3570ee;
+}

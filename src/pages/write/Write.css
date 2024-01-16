@@ -1,0 +1,71 @@
+.write{
+  margin-top: 2rem;
+}
+
+.write img{
+  width: 60vw;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+  image-rendering: pixelated;
+}
+
+.write form{
+  position: relative;
+  max-width: 75vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  background: aliceblue;
+}
+
+.write-form-grp{
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+input{
+  outline: none;
+  font-size: 0.8rem;
+  border: none;
+  padding: 0.5rem;
+  width: 35vw;
+}
+
+.write textarea{
+  font-size: 0.79rem;
+  border: none;
+  margin: 0.5rem 0 0 2rem;
+  outline: none;
+  height: 40vh;
+  width: 80%;
+}
+
+.write .icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #5f8ae7;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  color: #5f8ae7;
+}
+
+.write button{
+  position: absolute;
+  top: 8%;
+  right: 22%;
+  color: aliceblue;
+  background: #5f8ae7;
+  padding: 0.35rem 0.8rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 0.68rem;
+  cursor: pointer;
+  letter-spacing: 0.03rem;
+}

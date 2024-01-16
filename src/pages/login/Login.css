@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;600&family=Poppins:wght@100;200;300;400;500&family=Varela+Round&display=swap');
+
+.login{
+  width: calc(100vh - 150px);
+  height:  400px;
+  color:  #a888f8;
+  padding: 3rem 0 1rem 0;
+  background: aliceblue;
+  background:  url("https://media.istockphoto.com/id/1355957820/photo/first-person-top-view-photo-of-hands-in-sweater-writing-with-pencil-in-planner-giftbox-scarf.jpg?s=612x612&w=0&k=20&c=kPLze0XKsHV0e9lY1WbaT_kak0QPWLmhw8yoxkVB5bM=");
+  display: block;
+  margin: 3rem auto;
+  border-radius: 0.15rem 1rem;
+}
+
+.login div{
+ margin: 0.5rem 0;
+}
+
+.login label{
+  font-size: 0.97rem;
+  font-weight: 600;
+  font-family: 'Josefin Slab', serif;
+}
+
+.login form{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background: linear-gradient(to bottom, transparent, #000000c2);
+   height: 352px;
+   border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 0.15rem;
+   font-family: 'Josefin Slab', serif;
+}
+
+.login form input{
+  display: block;
+  width: 250px;
+  padding: 0.4rem 1rem;
+}
+
+.login button{
+  background: #9268fc;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 0.5rem 0 1rem;
+  color: aliceblue;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+  width: 250px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form div:nth-child(4){
+  display: flex;
+  flex-direction: column;
+  font-size: 0.67rem;
+}
+
+form p{
+  color: #a888f8;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+form div:nth-child(4) button{
+  margin: 0;
+}

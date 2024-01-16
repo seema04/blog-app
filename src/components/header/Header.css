@@ -1,0 +1,24 @@
+header img{
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 80px;
+
+}
+
+.headerTitles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #828181;
+}
+
+.txt-sm{
+  position: absolute;
+  top: 14%;
+}
+
+.txt-lg{
+  position: absolute;
+  top: 17%;
+  font-size: 2.3rem;
+}

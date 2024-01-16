@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;600&family=Poppins:wght@100;200;300;400;500&family=Varela+Round&display=swap');
+
+.single-post{
+  flex: 9;
+  margin: 2rem;
+  /* border: 2px solid red; */
+}
+
+.single-post-wrapper{
+  padding: 1rem;
+  /* border: 2px solid olive; */
+}
+
+.single-post img{
+  width: 100%;
+  height: 400px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  object-position: top; 
+}
+
+h3{
+  color: #769ced;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  margin: 0.4rem 0 0.5rem 0;
+}
+
+.edit-post{
+  font-size: 0.94rem;
+  float: right;
+  clear: both;
+  cursor: pointer;
+}
+
+.delete{
+  color: #cd5c5c;
+}
+
+.single-post-info{
+  color: #72c094;
+  font-size: 0.8rem;
+}
+
+.single-post-info span{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+}
+
+.date{
+  font-size: 0.55rem;
+  float: right;
+  clear: both;
+}
+
+.single-post-wrapper p{
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  font-family: 'Varela';
+  letter-spacing: 0.03rem;
+  color: gray
+}
+
+.single-post-wrapper p::first-letter{
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+}
